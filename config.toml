@@ -1,0 +1,23 @@
+# The URL the site will be built for
+base_url = "https://0xADD1E.me"
+compile_sass = true
+highlight_code = true
+build_search_index = true
+theme = "sam"
+
+[extra]
+show_word_count = true
+show_reading_time = true
+
+date_format = "%a %b %e, %Y"
+
+home = "home"
+
+sam_menu = [
+    { text = "posts", link = "/posts" },
+    { text = "about", link = "/about" },
+    { text = "github", link = "https://github.com/0xADD1E" }
+]
+
+sam_bottom_menu = true
+
